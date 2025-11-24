@@ -1,10 +1,16 @@
-import { View, Text } from 'react-native'
+import { Colors } from '@/app-example/constants/theme'
+import { LinearGradient } from 'expo-linear-gradient'
+import { View, Text, TouchableOpacity, StatusBar } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 const SettingsScreen = () => {
   return (
-    <View>
+
+      <View>
       <Text>SettingsScreen</Text>
-    </View>
+      </View>
+        
+    
   )
 }
 
