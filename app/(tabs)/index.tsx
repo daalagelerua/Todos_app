@@ -8,6 +8,7 @@ import { useQuery, useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { Colors } from "@/app-example/constants/theme";
 import Header from "../components/Header";
+import TodoInput from "../components/TodoInput";
 
 export default function Index() {
   const { toggleDarkMode, colors } = useTheme();
@@ -18,8 +19,9 @@ export default function Index() {
     <LinearGradient colors={colors.gradients.background} style={homeStyles.container}>
       <StatusBar barStyle={colors.statusBarStyle} />
       <SafeAreaView style={homeStyles.safeArea}>
-        <Text>Hello !</Text>
         <Header />
+
+        <TodoInput />
           <TouchableOpacity onPress={toggleDarkMode}>
             <Text>Toggle the mode</Text>
           </TouchableOpacity>
