@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SMS_Reader",
-    "slug": "SMS_Reader",
+    "name": "Todos_app",
+    "slug": "Todos_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
